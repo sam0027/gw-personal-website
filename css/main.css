@@ -1,0 +1,214 @@
+/*Personal Website Styles*/
+
+/*Colors:
+Primary Color: #376BA6
+Secondary Color: #FF8746
+Third Color: #2EA883
+Fourth Color: #FFB646
+*/
+
+/*Global Styles*/
+body, html {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3 {
+  margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Header Styles*/
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #376BA6;
+}
+
+.logo {
+  height: 100%;
+  width: 250px;
+  float: left;
+
+
+}
+.logo h1 {
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.menu {
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu li {
+  float: left;
+  padding: 0 15px;
+}
+
+.menu ul{
+  padding-top: 25px;
+}
+
+/*Banner Styles*/
+#banner {
+  height: 600px;
+  width: 100%;
+  background: url("../img/drops.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#banner h1 {
+  text-align: center;
+  padding-top: 250px;
+  color: #fff;
+  font-size: 50px;
+}
+#banner p {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+
+}
+
+/*About Styles*/
+#about {
+  height: 750px;
+  width: 100%;
+  background-color: #FF8746;
+}
+
+#about article{
+  width: 25%;
+  height: 75%;
+  /*background-color:#333;*/
+  float: left;
+  margin: 0px 30px;
+  padding: 20px 25px;
+}
+
+#about h1 {
+  padding-left: 75px;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 35px;
+}
+
+#about p {
+  margin-left: 50px;
+  color: #fff;
+  font-size: 15px;
+  text-align: left;
+}
+
+.kitten-container1{
+  height: 225px;
+  width: 100%;
+  float: left;
+  margin: 25px 25px;
+}
+
+.kitten1 {
+  height: 150px;
+  width: 200px;
+  background: url("../img/kitten1.jpg");
+  background-size: cover;
+}
+
+.kitten2 {
+  height: 100px;
+  width: 150px;
+  background: url("../img/kitten2.jpg");
+  background-size: cover;
+}
+
+.kitten3 {
+  height: 100px;
+  width: 150px;
+  background: url("../img/kitten3.jpg");
+  background-size: cover;
+}
+
+.kitten-container2 {
+  height: 225px;
+  width: 100%;
+  float: left;
+  margin: 25px 25px;
+}
+.kitten4 {
+  height: 200px;
+  width: 300px;
+  background: url("../img/kitten4.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.kitten5 {
+  height: 100px;
+  width: 150px;
+  background: url("../img/kitten5.jpeg");
+  background-size: cover;
+}
+
+.kitten6 {
+  height: 100px;
+  width: 150px;
+  background: url("../img/kitten6.jpeg");
+  background-size: cover;
+}
+/*Services Styles*/
+#services {
+  height: 550px;
+  width: 100%;
+  background-color:#2EA883;
+}
+#services h1 {
+  padding: 15px 40px;
+  font-size: 50px;
+  color: #fff;
+}
+#services p{
+  font-size: 14px;
+  padding: 10px 10px;
+  text-align: justify;
+  margin: auto;
+  color: #fff;
+}
+#services article {
+  height: 175px;
+  width: 25%;
+  /*background-color: #333;*/
+  float: left;
+  margin: 20px 25px;
+}
+#services article h1 {
+  font-size: 20px;
+}
+.container1 {
+  height: 30%;
+  width: 100%;
+  padding: 0 75px;
+}
+.container2 {
+  height: 30%;
+  width: 100%;
+  padding: 0 75px;
+}
+/*Event Blog post Style*/
+#event {
+  height: 400px;
+  width: 100%;
+  background-color: #FFB646;
+}
